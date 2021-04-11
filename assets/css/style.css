@@ -1,0 +1,277 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: mintcream;
+}
+
+
+/* Header */
+.header {
+    display:flex;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../images/code.jpg);
+    color: #ffffff;
+}
+
+.header a {
+    color:#ffffff
+}
+
+.header h1 {
+    font-size: 48px;
+    background-color: #242222;
+    padding: 10px;
+    outline: solid #ffffff
+    
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+    justify-content: flex-end;
+    border: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.aboutmehead {
+    color: #ffffff;
+    background-color: #242222;
+    padding: 10px;
+    outline-style: auto;
+    outline-color: white;
+}
+
+.workhead {
+    color: #ffffff;
+    background-color: #242222;
+    padding: 10px;
+    outline-style: auto;
+    outline-color: white;
+}   
+
+.contactinfohead {
+    color: #ffffff;
+    background-color: #242222;
+    padding: 10px;
+    outline-style: auto;
+    outline-color: white;
+}
+            
+.resumehead {
+    color: #ffffff;
+    background-color: #242222;
+    padding: 10px;
+    outline-style: auto;
+    outline-color: white;
+}
+/* End Header */
+
+/* Main pic */
+
+.center {
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+
+/* End Main pic */
+
+/* Content styling */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* End Content style*/
+
+/* About Me Section */
+.aboutme {
+    display: flex;
+    margin: 25px;
+}
+
+
+.aboutme h2 {
+    font-size: 36px;
+    padding: 50px;
+}
+
+.paragraph {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: solid teal;
+    font-size: 18px;
+}
+
+.aboutme p {
+    width: 75vw;
+    padding-bottom: 20px;
+}
+/* End About Me Section */
+
+/* Work Section */
+.work {
+    display: flex;
+    margin: 25px;
+}
+
+.work h2 {
+    font-size: 36px;
+    padding: 50px 110px 50px 50px;
+    
+}
+
+.projectphotos {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: solid teal;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    width: 75vw;
+    height: 500px;
+}
+
+.project1 {
+    position: relative;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+}
+
+.project1 img:hover {
+    opacity: .5;
+}
+
+.text-block1 {
+    position: absolute;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.project2 {
+    padding: 5px;
+    flex: 1 1 50%;
+    flex-wrap: wrap;
+}
+
+.project2 img:hover {
+    opacity: .5;
+}
+
+.p2 {
+    width: 37vw;
+    height: 200px;
+}
+
+.project2 {
+    position: relative
+}
+
+.text-block2 {
+    position: absolute;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.p3 {
+    width: 37vw;
+    height: 200px;
+}
+
+.project3 {
+    position: relative
+}
+
+.text-block3 {
+    position: absolute;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.p4 {
+    width: 37vw;
+    height: 200px;
+}
+.project4 {
+    position: relative
+}
+
+.text-block4 {
+    position: absolute;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.p5 {
+    width: 37vw;
+    height: 200px;
+}
+
+.text-block5 {
+    position: absolute;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+
+.project5 {
+    position: relative
+}
+
+/* End Work Section */
+.contactinfo {
+    display: flex;
+    margin: 25px
+}
+
+
+.contactinfo h2 {
+    font-size: 36px;
+    padding: 27px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 75vw;
+    border-left: solid teal;
+    font-size: 20px;
+    padding: 37px;
+}
+
+ul li::before {
+    color: black;
+}
+
+
