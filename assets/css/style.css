@@ -3,7 +3,7 @@ html {
   }
 
 body {
-    background-color: mintcream;
+    background-color: rgb(161, 162, 167);
 }
 
 
@@ -39,6 +39,7 @@ body {
 .header div ul {
     list-style-type: none;
     justify-content: flex-end;
+    flex-wrap: wrap;
     border: none;
 }
 
@@ -119,6 +120,7 @@ body {
     padding-left: 20px;
     border-left: solid teal;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 
 .aboutme p {
@@ -137,6 +139,10 @@ body {
     font-size: 36px;
     padding: 50px 110px 50px 50px;
     
+}
+
+.work img {
+    border: 2px solid black
 }
 
 .projectphotos {
